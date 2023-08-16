@@ -1,0 +1,2857 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+
+/* .skiptranslate{
+    display: none;
+} */
+iframe {
+    display: none;
+}
+
+:root {
+    --direction-en: ltr;
+    --direction-ar: rtl;
+}
+
+html[lang="en"] {
+    --direction: var(--direction-en);
+}
+
+html[lang="ar"] {
+    --direction: var(--direction-ar);
+}
+
+html[lang="auto"] {
+    --direction: var(--direction-ar);
+}
+
+
+html,
+body {
+    font-family: 'Almarai', sans-serif;
+    background-color: #F8F8F8;
+    color: #2F3843;
+    top: 0px !important;
+}
+
+.roboto-500 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+input,
+button,
+p,
+span {
+    direction: var(--direction);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.wrapper {
+    width: 97%;
+    margin: auto;
+}
+
+.content-widget {
+    margin: 30px 0px;
+    border-radius: 13px;
+    border: 1px solid #E8E9EB;
+    background: #FFF;
+}
+
+.row {
+    width: 100%;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.bg-transparent {
+    background-color: transparent !important;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: #1E4D45;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fs-7 {
+    font-size: 14px;
+}
+
+.text-p {
+    color: #828282 !important;
+}
+
+.w-mxc {
+    width: max-content !important;
+}
+
+.text-orange {
+    color: #E5AC2E !important;
+}
+
+.text-theme {
+    color: #1E4D45 !important;
+}
+
+.text-black {
+    color: #000000;
+}
+
+.theme__button {
+    border-radius: 10px;
+    background-color: rgb(30, 77, 69);
+    padding: 12px 30px;
+    border: 1px solid rgb(30, 77, 69);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    transition: all 0.4s ease 0s;
+}
+
+.theme__button:hover {
+    background-color: transparent;
+    color: #1E4D45;
+}
+
+.rtl {
+    direction: var(--direction);
+}
+
+#app {
+    margin-top: -20px;
+    position: relative;
+}
+
+
+.goog-te-gadget .goog-te-combo {
+    position: absolute;
+    top: 0.8%;
+    left: 19%;
+    z-index: 10;
+    padding: 10px;
+    border: none;
+    /* width: 120px; */
+    background-color: transparent;
+}
+
+.goog-te-gadget .goog-te-combo:focus {
+    outline: none;
+}
+
+html[lang='fr'] .goog-te-combo {
+    left: 22%;
+}
+
+.drop-world {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: max-content;
+    position: absolute;
+    top: 1.1%;
+    left: 24%;
+    z-index: 100;
+    background: #FFF;
+    border-radius: 50%;
+}
+
+html[lang='fr'] .drop-world {
+    left: 27%;
+}
+
+/* Header CSS Start */
+header {
+    background: #FFF;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25);
+    padding: 14px 0px;
+}
+
+.bg__theme {
+    background-color: #1E4D45;
+}
+
+.logo_ img {
+    border-radius: 50%;
+    width: 70px;
+}
+
+.search__bar {
+    display: flex;
+    border-radius: 16px;
+    border: 1px solid #CED4DA;
+    background: #FFF;
+    padding: 10px;
+    width: 100%;
+}
+
+.search__bar img {
+    width: 25px;
+}
+
+.search__bar input {
+    border: none;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #000;
+}
+
+.search__bar input::placeholder {
+    font-size: 15px;
+    color: #828282;
+}
+
+.search__bar input:focus-visible {
+    outline: none;
+}
+
+.location__icon {
+    border-radius: 16px;
+    background: #1E4D45;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.language-dropdown:focus {
+    box-shadow: none;
+}
+
+.language-dropdown::after {
+    display: none;
+}
+
+.lang-drop li {
+    cursor: pointer;
+}
+
+/* Header CSS End */
+
+/* Add Tow CSS Start */
+.add-four {
+    height: 260px;
+}
+
+.add-tow-section {
+    border-radius: 13px;
+    /* border: 1px solid #DFDFDF; */
+    background: #FFF8E6;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    direction: var(--direction);
+}
+
+.add-tow-section img {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 0;
+}
+
+.add-tow-section h4 {
+    color: #000;
+    padding: 10px;
+}
+
+.add-tow-section p {
+    color: #787D84;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+    direction: var(--direction);
+}
+
+/* Add Tow CSS End */
+
+/* Add Three CSS Start */
+.add-three-section {
+    padding: 0px;
+    border-radius: 13px;
+    /* border: 1px solid #DFDFDF; */
+    background: #FFF;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    direction: var(--direction);
+}
+
+.add-three-section img {
+    margin: auto;
+    margin-bottom: 0;
+}
+
+.add-three-section h4 {
+    color: #000;
+    padding: 10px;
+}
+
+.add-three-section p {
+    color: #787D84;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+    direction: var(--direction);
+}
+
+.yellow-btn {
+    padding: 10px 35px;
+    border-radius: 11px;
+    background: #E5AC2E;
+    border-color: #E5AC2E;
+    ;
+}
+
+/* Add Three CSS End */
+
+
+/* Add Five CSS Start */
+.add-five-section {
+    border-radius: 13px;
+    /* border: 1px solid #DFDFDF; */
+    background: #2F3843;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    direction: var(--direction);
+}
+
+.add-five-section img {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 0;
+}
+
+.add-five-section p {
+    margin-top: 15px;
+    color: #CED4DA;
+    font-size: 13px;
+    font-weight: 500;
+    direction: var(--direction);
+    line-height: 25px;
+}
+
+#goog-gt-tt {
+    display: none !important;
+}
+
+/* Add Five CSS End */
+
+/* Banner One CSS Start */
+.banner-one {
+    border-radius: 10px;
+    background: #FFF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 2.7% 2.5%;
+}
+
+html[lang="auto"] .banner-one {
+    direction: var(--direction-en);
+}
+
+html[lang="ar"] .banner-one {
+    direction: var(--direction-en);
+}
+
+html[lang="en"] .banner-one {
+    direction: var(--direction-ar);
+}
+
+html[lang="fr"] .banner-one {
+    direction: var(--direction-ar);
+}
+
+html[lang="tr"] .banner-one {
+    direction: var(--direction-ar);
+}
+
+html[lang="id"] .banner-one {
+    direction: var(--direction-ar);
+}
+
+
+html[lang="auto"] .banner-one-content {
+    direction: rtl;
+}
+
+html[lang="ar"] .banner-one-content {
+    direction: rtl;
+}
+
+html[lang="en"] .banner-one-content {
+    direction: ltr;
+}
+
+html[lang="en"] .banner-one-content {
+    direction: ltr;
+}
+
+html[lang="fr"] .banner-one-content {
+    direction: ltr;
+}
+
+html[lang="tr"] .banner-one-content {
+    direction: ltr;
+}
+
+html[lang="id"] .banner-one-content {
+    direction: ltr;
+}
+
+
+.banner-one-content h2 {
+    font-weight: 700;
+}
+
+.banner-one-content p {
+    font-weight: 400;
+}
+
+/* Banner One CSS End */
+
+
+/* Sidebar CSS Start */
+.sidebar-nav ul {
+    padding: 0px;
+    padding-bottom: 0px;
+    list-style-type: none;
+    direction: var(--direction);
+    margin-bottom: 0px;
+}
+
+.sidebar-nav ul li {
+    border-top: 1px solid #EEEFF0;
+    padding: 7px 10px;
+}
+
+.sidebar-nav ul li a {
+    padding: 8px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    width: 100%;
+    display: block;
+    display: flex;
+    align-items: center;
+    color: #2F3843;
+    gap: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: .4s all;
+}
+
+.sidebar-nav ul li a svg {
+    fill: #2F3843;
+    transition: .4s all;
+}
+
+.active-link {
+    border-radius: 16px;
+    background: #1E4D45;
+    color: #FFF !important;
+}
+
+.active-link .svg_icon {
+    fill: #FFF;
+}
+
+.sidebar-nav ul li a:hover {
+    background: #1E4D45;
+    color: #FFF !important;
+    border-radius: 16px;
+}
+
+.sidebar-nav ul li a:hover .svg_icon {
+    fill: #FFF;
+}
+
+.download-the-app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 0px 0px 10px 10px;
+    /* border: 1px solid #1E4D45; */
+    background: rgba(252, 212, 101, 0.60);
+    padding: 11px;
+}
+
+.download-the-app span {
+    color: #1E4D45;
+}
+
+.download-the-app img {
+    width: 40px;
+}
+
+/* RESPONSIVE SCREENS */
+
+/* Sidebar CSS End */
+
+
+/* All Country Section Start */
+
+.all-country-section {
+    padding: 25px 15px;
+}
+
+.all-country-section .col-lg-12 {
+    direction: var(--direction);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.all-country-list ul {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+    margin-bottom: 0px;
+}
+
+.all-country-list li {
+    color: #828282;
+    font-weight: 400;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.active-region {
+    color: #1E4D45 !important;
+    border-color: #C8B100 !important;
+}
+
+.all-countries {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 14px;
+}
+
+.selected-region-country {
+    width: max-content;
+    border-radius: 16px;
+    border: 1px solid #CED4DA;
+    background: #FFF;
+    padding: 22px 33px;
+    cursor: pointer;
+    transition: .4s all;
+    text-align: center;
+}
+
+.selected-region-country img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.selected-region-country:hover {
+    background: #ced4da6c;
+}
+
+.selected-region-country span {
+    font-weight: 400;
+    color: #333;
+    font-size: 16px;
+    display: block;
+    margin-top: 8px;
+}
+
+.countries-pagination {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: end;
+    direction: ltr;
+}
+
+.countries-pagination .country-pagination-arrow-left {
+    background: #EAEDFF;
+    padding: 8px 12px;
+    border-radius: 10px;
+    width: max-content;
+    cursor: pointer;
+}
+
+.countries-pagination .country-pagination-arrow-right {
+    background: #F8F8F8;
+    padding: 8px 12px;
+    border-radius: 10px;
+    width: max-content;
+    cursor: pointer;
+}
+
+.countries-pagination {
+    margin-top: 20px;
+}
+
+.countries-pagination ul {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    list-style: none;
+    gap: 0px;
+    direction: var(--direction);
+    margin: 0px;
+    padding: 0px;
+}
+
+.countries-pagination li a {
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #3F434A;
+    transition: .4s all;
+}
+
+.countries-pagination li a:hover {
+    background-color: #1E4D45;
+    color: #FFF !important;
+}
+
+.active {
+    background-color: #1E4D45;
+    color: #FFF !important;
+}
+
+.search-country-div {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 100%;
+    background-color: #FFF;
+    border: 1px solid #828282;
+    border-radius: 14px;
+}
+
+.search-province {
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    justify-content: space-between;
+    border-bottom: 1px solid #828282;
+}
+
+.search-province div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+.search-province input {
+    width: 100%;
+    padding: 5px;
+    margin-left: 15px;
+    border: none;
+}
+
+.search-province input:focus {
+    outline: none;
+}
+
+.search-province img {
+    width: 30px;
+}
+
+.country-province-result {
+    padding: 10px 20px;
+    margin: 0px;
+    list-style-type: none;
+    direction: var(--direction);
+}
+
+.country-province-result li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 00;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.country-province-result li a img {
+    width: 35px;
+    margin: 0px 5px;
+}
+
+/* All Country Section End */
+
+
+/* Three Banner Section Start */
+.banner-col {
+    width: 32%;
+    padding: 0px;
+}
+
+.banner-col img {
+    width: 100%;
+    height: 300px;
+}
+
+/* Three Banner Section End */
+
+
+/* All Major City Section Start */
+.all-major-city-section {
+    padding: 25px 15px;
+}
+
+.all-major-city-section .col-lg-12 {
+    direction: var(--direction);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.all-major-city-list ul {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+    margin-bottom: 0px;
+}
+
+.all-major-city-list li a {
+    color: #828282;
+    font-weight: 400;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 5px;
+}
+
+
+.all-major-city {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 14px;
+}
+
+.selected-major-city {
+    width: max-content;
+    border-radius: 16px;
+    border: 1px solid #CED4DA;
+    background: #FFF;
+    padding: 22px 33px;
+    cursor: pointer;
+    transition: .4s all;
+}
+
+.selected-major-city:hover {
+    background: #ced4da6c;
+}
+
+.selected-major-city span {
+    font-weight: 400;
+    color: #333;
+    font-size: 16px;
+    display: block;
+    margin-top: 8px;
+}
+
+.city-pagination {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: end;
+    direction: ltr;
+}
+
+.city-pagination .city-pagination-arrow-left {
+    background: #EAEDFF;
+    padding: 8px 12px;
+    border-radius: 10px;
+    width: max-content;
+    cursor: pointer;
+}
+
+.city-pagination .city-pagination-arrow-right {
+    background: #F8F8F8;
+    padding: 8px 12px;
+    border-radius: 10px;
+    width: max-content;
+    cursor: pointer;
+}
+
+.city-pagination {
+    margin-top: 20px;
+}
+
+.city-pagination ul {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    list-style: none;
+    gap: 0px;
+    direction: var(--direction);
+    margin: 0px;
+    padding: 0px;
+}
+
+.city-pagination li a {
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #3F434A;
+    transition: .4s all;
+}
+
+.city-pagination li a:hover {
+    background-color: #1E4D45;
+    color: #FFF !important;
+}
+
+/* All Major City Section End */
+
+
+/* Advantage Section Start*/
+.advantage-section {
+    padding: 2.5rem 2rem;
+    padding-bottom: 1rem;
+}
+
+.advantage-section .advantage-heading h2 {
+    color: #2F3843;
+}
+
+.advantage-section .advantage-heading p {
+    color: #828282;
+    font-size: 15px;
+}
+
+.advantage-point {
+    padding: 10px 3%;
+}
+
+.advantage-point h3 {
+    color: #242F6C;
+}
+
+.advantage-point p {
+    font-size: 13px;
+    color: #777;
+}
+
+/* Advantage Section End*/
+
+
+/* Mobile Banner Section Start */
+.mobile-banner-section {
+    padding: 2rem 5px;
+    padding-bottom: 0rem;
+}
+
+.mobile-banner-section .col-lg-7 img {
+    width: 100%;
+}
+
+.mobile-banner-section .col-lg-5 {
+    direction: var(--direction);
+    padding: 2rem 40px !important;
+    padding-left: 0rem !important;
+}
+
+.mobile-banner-section .col-lg-5 img {
+    width: 33%;
+}
+
+/* Mobile Banner Section End */
+
+/* Location Modal Start */
+#locationModel .modal-content {
+    border-radius: 27px;
+    direction: var(--direction);
+    padding: 2rem;
+}
+
+.location-button {
+    display: flex;
+    gap: 10px;
+}
+
+.location-button button {
+    width: 120px;
+}
+
+.location-btn1 {
+    background-color: transparent;
+    color: #1E4D45;
+}
+
+.location-btn1:hover {
+    background-color: #1E4D45;
+    color: #FFF;
+}
+
+/* Location Modal End */
+
+/* Share Modal Start */
+#ShareModal .modal-content {
+    border-radius: 27px;
+    direction: var(--direction);
+    padding: 2rem;
+}
+
+.icons-box {
+    display: flex;
+    gap: 30px;
+}
+
+.share-icons div {
+    border-radius: 50%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 37.333px;
+    background: rgba(157, 157, 157, 0.04);
+    margin-bottom: 10px;
+    transition: .4s all;
+    cursor: pointer;
+}
+
+.share-icons:hover div {
+    background: rgba(229, 172, 46, 0.13);
+}
+
+.copy-link {
+    display: flex;
+    direction: var(--direction);
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    border-radius: 16px;
+    background: rgba(157, 157, 157, 0.04);
+    padding: 20px;
+}
+
+.copy-link input {
+    width: 100%;
+    border: none;
+    text-align: start;
+    background-color: transparent;
+    color: rgba(61, 90, 128, 0.50);
+    direction: var(--direction);
+}
+
+/* Share Modal End */
+
+/* About The Country Start */
+.AboutTheCountry {
+    padding: 15px;
+}
+
+.AboutTheCountry div {
+    direction: var(--direction);
+}
+
+.country-profile {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    direction: var(--direction);
+}
+
+.flag-profile-img {
+    border: 1px solid #CED4DA;
+    padding: 10px 12px;
+    border-radius: 10px;
+}
+
+.flag-profile-img img {
+    width: 40px;
+}
+
+.prayer-times-row {
+    border-radius: 10px;
+    border: 1px solid #AF874C;
+    background: rgba(252, 212, 101, 0.09);
+    flex-wrap: nowrap;
+}
+
+.prayer-times {
+    padding: 13px;
+}
+
+.prayer-times-row .col-2 {
+    padding: 0px;
+    position: relative;
+}
+
+.prayer-times-row .col-2::after {
+    content: "";
+    position: absolute;
+    top: 15%;
+    right: 0;
+    height: 70%;
+    width: 1px;
+    background-color: #CED4DA;
+}
+
+.border-right-none::after {
+    display: none;
+}
+
+.active-prayer {
+    background: #E5AC2E;
+}
+
+.active-prayer div {
+    color: #FFF !important;
+}
+
+.prayer-tabs {
+    direction: var(--direction);
+    display: flex;
+    gap: 30px;
+}
+
+.prayer-tabs button {
+    border-radius: 10px;
+    background: #EEEFEF;
+    color: #777;
+    font-size: 18px;
+    width: 100%;
+    border-color: transparent;
+    font-weight: 700;
+}
+
+.prayer-tabs button:hover {
+    color: #FFF;
+    background: #E5AC2E !important;
+}
+
+.prayer-active-tab {
+    background: #E5AC2E !important;
+    color: #FFF !important;
+}
+
+.prayer-table {
+    width: 100%;
+    direction: var(--direction);
+}
+
+.prayer-heading {
+    background: #1E4D45;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.prayer-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 300;
+    width: 100%;
+    border-bottom: 1px solid #CED4DA;
+}
+
+.prayer-body {
+    overflow: hidden;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.prayer-heading div {
+    width: 110px;
+    padding: 8px 20px;
+}
+
+.prayer-item div {
+    width: 110px;
+    padding: 8px 20px;
+    font-family: 'Roboto', sans-serif;
+    direction: var(--direction);
+    text-align: end;
+}
+
+.prayer-date {
+    background: #F0F1F3;
+    font-weight: 500;
+}
+
+.active-date {
+    background: #FFEFCA;
+}
+
+.active-date .active-time {
+    font-size: 16px;
+    padding: 15px 20px;
+}
+
+.active-date .prayer-date {
+    background-color: transparent;
+    color: #000000;
+}
+
+/* About The Country End */
+
+/* Country Capital Start */
+.country-capital {
+    display: flex;
+    align-items: center;
+    direction: var(--direction);
+    flex-wrap: wrap;
+    gap: 17px;
+    justify-content: space-between;
+}
+
+.country-capital-item {
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: 1px solid #CED4DA;
+    background: #FFF;
+    transition: .4s all;
+    cursor: pointer;
+}
+
+.country-capital-item:hover {
+    background-color: #ced4da6c;
+}
+
+.all-country-dts-page .search-widget {
+    display: none !important;
+}
+
+/* Country Capital End */
+
+
+/* Playlist Start */
+.playlist-box {
+    display: flex;
+    direction: var(--direction);
+    gap: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #CED4DA;
+    background: #FFF;
+    width: 50%;
+}
+
+.playlist-box h5 {
+    font-weight: 700;
+}
+
+.playlist-box span {
+    color: #979797;
+}
+
+/* Playlist End */
+
+/* Article Start */
+
+.article-box {
+    border-radius: 12px;
+    border: 1px solid #CED4DA;
+    background: #FFF;
+}
+
+.article-img {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.article-img img {
+    border-radius: 12px;
+}
+
+.article-body {
+    padding: 13px;
+}
+
+.article-body p {
+    color: #828282;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+/* Article End */
+
+/* All Elders Start */
+.all-edlder-search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.all-edlder-search input {
+    padding: 10px;
+    border-radius: 16px;
+    border: 1px solid #CED4DA;
+    background: #FFF;
+    width: 40%;
+}
+
+.all-edlder-search input:focus {
+    outline: none;
+}
+
+.all-elders-listing {
+    display: flex;
+    direction: var(--direction);
+    align-items: center;
+    gap: 9px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.all-elders-listing div {
+    border-radius: 7px;
+    border: 1px solid #CED4DA;
+    background-color: #FFF;
+    height: 38px;
+    min-width: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    cursor: pointer;
+    transition: .4s all;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.active-letter {
+    background-color: #1E4D45 !important;
+    color: #FFF !important;
+    border-color: #1E4D45 !important;
+}
+
+.all-elders-listing div:hover {
+    background-color: #1E4D45 !important;
+    color: #FFF;
+}
+
+.active-letter-orange {
+    background-color: #FCD465 !important;
+    color: #1E4D45;
+    padding: 5px 10px;
+}
+
+.recordings-by-qari-item {
+    display: flex;
+    direction: var(--direction);
+    justify-content: space-between;
+    align-items: end;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #CED4DA;
+    background: #FFF;
+    width: 32.5%;
+    padding: 8px;
+    margin-bottom: 4px;
+}
+
+.recordings-by-qari-item img {
+    width: 80px;
+}
+
+.recordings-by-qari-item h5 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 0px;
+}
+
+.recordings-by-qari-item div {
+    font-size: small;
+    color: #787D84;
+}
+
+.recordings-items-share-icons {
+    gap: 15px;
+}
+
+.qari-by-letter {
+    border-radius: 7px;
+    border: 1px solid #1E4D45;
+    background-color: #1E4D45;
+    height: 38px;
+    width: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    cursor: pointer;
+    transition: .4s all;
+    font-size: 13px;
+    color: #FFF;
+    direction: var(--direction);
+}
+
+.all-edlder-search input::placeholder {
+    color: #828282;
+}
+
+/* All Elders End */
+
+/* Surrat Section Start */
+.tashgel {
+    color: #F5B44B;
+    font-size: 12px;
+}
+
+.surat-details h3 {
+    margin: 0px;
+}
+
+.surat-details span {
+    font-size: small;
+    font-weight: 700;
+}
+
+.surat-details p {
+    font-size: 15px;
+    color: #8C8C8C;
+    margin: 0px;
+}
+
+.surat-date {
+    color: #5F5F5F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.surrat-image {
+    width: 15%;
+}
+
+.surrat-content {
+    width: 85%;
+}
+
+/* .surat-share-icon {
+    position: absolute;
+    top: -12px;
+    left: -12px;
+} */
+
+.surat-search-bar {
+    width: 100%;
+    border-radius: 16px;
+    border: 1px solid #CED4DA;
+    background: #FFF;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.surat-search-bar input {
+    border: none;
+    width: 100%;
+}
+
+.surat-search-bar input::placeholder {
+    font-size: small;
+}
+
+.surat-search-bar input:focus {
+    outline: none;
+}
+
+.surat-box {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.surat-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 49%;
+    border-radius: 10px;
+    border: 1px solid #CED4DA;
+    background: #FFF;
+    padding: 20px 15px;
+    direction: var(--direction);
+}
+
+.surat-list-content {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+html[lang="auto"] .surat-list-content {
+    direction: var(--direction-en);
+}
+
+html[lang="auto"] .surat-list-content {
+    direction: var(--direction-en);
+}
+
+html[lang="en"] .surat-list-content {
+    direction: var(--direction-ar);
+}
+
+
+.surat-list-point {
+    background-color: #FCD465;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: large;
+}
+
+.surat-list-content span {
+    font-size: 17px;
+    color: #1E4D45;
+    font-weight: 400;
+}
+
+html[lang="ar"] .surat-list-rc {
+    text-align: left;
+}
+
+html[lang="auto"] .surat-list-rc {
+    text-align: left;
+}
+
+html[lang="en"] .surat-list-rc {
+    text-align: end;
+}
+
+.surat-list-rc span {
+    color: #979797;
+}
+
+.suratplay-p-dsk {
+    display: block;
+}
+
+.suratplay-p-mb {
+    display: none;
+}
+
+/* Surat Section End */
+
+/* More Playlist Start */
+.MoreSuratBox {
+    width: 100%;
+}
+
+.MoreSuratList {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #CED4DA;
+    background: #FFF;
+    padding: 13px;
+    margin-top: 20px;
+    direction: var(--direction);
+}
+
+.MoreSuratList-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+html[lang="auto"] .MoreSuratList-content {
+    direction: var(--direction-en);
+}
+
+html[lang="ar"] .MoreSuratList-content {
+    direction: var(--direction-en);
+}
+
+html[lang="en"] .MoreSuratList-content {
+    direction: var(--direction-ar);
+}
+
+
+.MoreSuratList-content div {
+    direction: var(--direction);
+}
+
+.MoreSuratList-content h5 {
+    margin-bottom: 0px;
+    font-weight: 700;
+    color: #333;
+}
+
+.MoreSuratList-content p {
+    margin-bottom: 0px;
+    color: #979797;
+}
+
+.MoreSuratList-play {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #666;
+    font-size: large;
+}
+
+/* More Playlist End */
+
+/* Surat Qari Start */
+.surat-row {
+    padding: 1.4rem;
+}
+
+.surat-qari-content {
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.surat-qari-image {
+    width: 10%;
+}
+
+.surat-qari-content h4 {
+    color: #222;
+}
+
+.surat-qari-content span {
+    color: #979797;
+    font-family: 'Roboto', sans-serif;
+}
+
+.surat-qari-content p {
+    color: #1E4D45;
+    font-weight: 600;
+}
+
+/* Surat Qari End */
+
+
+
+
+
+/* Footer Section Start */
+.footer-section {
+    padding: 50px 0px;
+    margin-top: 3%;
+    padding-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.footer-logo img {
+    width: 70px;
+}
+
+.footer-div {
+    width: 80%;
+    margin: auto;
+}
+
+.footer-ul {
+    padding: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    gap: 10%;
+    list-style-type: none;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.footer-ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 400;
+}
+
+.footer-links {
+    margin-top: 20px;
+}
+
+.footer-links .col-lg-3 a {
+    color: #FCD465;
+    direction: var(--direction);
+    text-decoration: none;
+    width: max-content;
+    margin: auto;
+    display: block;
+}
+
+
+
+.footer-links .col-lg-3 button {
+    font-size: small;
+    margin: auto;
+    width: max-content;
+    display: block;
+    background-color: transparent;
+    border: 1px solid #FFF;
+    padding: 9px 40px;
+}
+
+.footer-links .col-lg-3 button:hover {
+    color: #000;
+    background-color: #FFF;
+
+}
+
+.footer-divider {
+    width: 100%;
+    height: 1px;
+    background-color: #FFF;
+    margin-top: 30px;
+}
+
+.copyright-div {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.copyright-div a {
+    color: #F9F9F9;
+    text-decoration: none;
+    direction: var(--direction);
+}
+
+
+/* Footer Section End */
+
+/* RESPONSIVE SCREENS */
+@media(max-width:1527.27px) {
+    html[lang='fr'] .drop-world {
+        left: 31%;
+    }
+
+    .drop-world {
+        left: 25%;
+    }
+
+    html[lang='fr'] .goog-te-combo {
+        left: 25%;
+    }
+
+    .all-countries {
+        justify-content: start;
+        gap: 25px;
+    }
+
+    .all-major-city {
+        gap: 25px;
+        justify-content: start;
+    }
+
+    .country-capital-item {
+        padding: 10px 40px;
+    }
+
+    .all-elders-listing {
+        justify-content: start;
+    }
+
+    .surat-box {
+        gap: 15px;
+        justify-content: space-between;
+    }
+}
+
+@media(max-width:1366px) {
+    html[lang='fr'] .drop-world {
+        left: 33%;
+    }
+
+    .drop-world {
+        position: absolute;
+        top: 1.0%;
+        left: 29%;
+    }
+
+    html[lang='fr'] .goog-te-combo {
+        left: 27%;
+    }
+
+    .goog-te-gadget .goog-te-combo {
+        position: absolute;
+        top: 0.7%;
+        left: 22%;
+    }
+
+    .add-four {
+        height: 255px;
+    }
+
+    .all-major-city {
+        justify-content: start;
+        gap: 9px;
+    }
+
+    .sidebar-nav ul li {
+        margin-bottom: 0px;
+    }
+
+    .selected-region-country {
+        padding: 25px 24px;
+    }
+
+    .selected-region-country img {
+        width: 50px;
+        height: 50px;
+        margin: auto;
+        display: block;
+    }
+
+    .selected-major-city {
+        padding: 25px 24px;
+    }
+
+    .selected-major-city img {
+        width: 50px;
+        margin: auto;
+        display: block;
+    }
+
+    .add-tow-section p {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .add-three-section p {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .add-tow-section h3 {
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .add-three-section h3 {
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .yellow-btn {
+        padding: 8px 34px;
+        border-radius: 9px;
+        font-size: small;
+    }
+
+    .add-three-section img {
+        width: 100%;
+    }
+
+    .banner-col img {
+        height: 230px;
+    }
+
+    .add-tow-section {
+        height: 500px;
+    }
+
+    .add-three-section {
+        height: 500px;
+    }
+
+    .countries-pagination li a {
+        padding: 8px 13px;
+    }
+
+    .countries-pagination .country-pagination-arrow-left {
+        padding: 5px 9px;
+    }
+
+    .countries-pagination .country-pagination-arrow-right {
+        padding: 5px 9px;
+    }
+
+    .city-pagination li a {
+        padding: 8px 13px;
+    }
+
+    .city-pagination .city-pagination-arrow-left {
+        padding: 5px 9px;
+    }
+
+    .city-pagination .city-pagination-arrow-right {
+        padding: 5px 9px;
+    }
+
+    .sidebar-nav ul li a {
+        font-size: 13px;
+    }
+
+    .mobile-banner-section .col-lg-5 h3 {
+        font-size: 23px;
+    }
+
+    .mobile-banner-section .col-lg-5 p {
+        font-size: 13px !important;
+    }
+
+    .advantage-section {
+        padding: 1.5rem 2rem;
+    }
+
+    .advantage-point p {
+        font-size: 11px;
+    }
+
+    .advantage-point h3 {
+        font-size: 23px;
+    }
+
+    .advantage-section .advantage-heading p {
+        font-size: 12px;
+    }
+
+    .advantage-section .advantage-heading h2 {
+        font-size: 28px;
+    }
+
+    .search__bar input {
+        font-size: small;
+    }
+
+    .search__bar input::placeholder {
+        font-size: small;
+    }
+
+    .all-countries {
+        justify-content: start;
+        gap: 31px;
+    }
+
+    .all-major-city {
+        justify-content: start;
+        gap: 31px;
+    }
+
+    .country-capital-item {
+        padding: 10px 35px;
+        font-size: small;
+    }
+
+    .calculation-methods span {
+        font-size: small;
+    }
+
+    .which-country {
+        font-size: small;
+    }
+
+    .country-profile p {
+        font-size: small;
+    }
+
+    .prayer-times .text-p {
+        font-size: small;
+    }
+
+    .prayer-times .roboto-500 {
+        font-size: 16px !important;
+    }
+
+    .prayer-tabs button {
+        font-size: 15px;
+    }
+
+    .prayer-heading div {
+        font-size: small;
+    }
+
+    .prayer-item {
+        font-size: 12px;
+    }
+
+    .add-tow-section h4 {
+        font-size: 20px;
+    }
+
+    .add-three-section h4 {
+        font-size: 20px;
+    }
+
+    .add-five-section h4 {
+        font-size: 20px !important;
+    }
+
+    .add-five-section p {
+        font-size: 12px;
+    }
+
+    .playlist-box h5 {
+        font-size: 18px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+
+    .playlist-box span {
+        font-size: 13px;
+    }
+
+    .article-body h4 {
+        font-size: 18px;
+    }
+
+    .recordings-by-qari-item h5 {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .recordings-by-qari-item div {
+        font-size: 10px;
+        gap: 5px !important;
+    }
+
+    .surat-details p {
+        font-size: 13px;
+    }
+
+    .active-date .active-time {
+        font-size: 15px;
+    }
+
+    .sidebar-nav ul li {
+        padding: 5px 10px;
+    }
+
+}
+
+@media(max-width:1344px) {
+    .add-four {
+        height: 243px;
+    }
+
+    .sidebar-nav ul li a {
+        padding: 8px 10px;
+    }
+
+    .download-the-app span {
+        font-size: 12px !important;
+    }
+
+    .download-the-app img {
+        width: 32px;
+    }
+
+    .sidebar-nav ul li a {
+        padding: 5px 10px;
+    }
+
+    .sidebar-nav ul li {
+        margin-bottom: 12px;
+    }
+
+    .all-countries {
+        justify-content: start;
+        gap: 24px;
+    }
+
+    .all-major-city {
+        justify-content: start;
+        gap: 24px;
+    }
+
+}
+
+@media(max-width:1280px) {
+    html[lang='fr'] .drop-world {
+        left: 34%;
+    }
+    .all-countries {
+        gap: 19px;
+    }
+
+    .all-major-city {
+        gap: 19px;
+    }
+
+    .country-capital {
+        gap: 13px;
+    }
+}
+
+@media(max-width:1120px) {
+    html[lang='fr'] .drop-world {
+        left: 38%;
+    }
+
+    .drop-world {
+        position: absolute;
+        top: 1.3%;
+        left: 33%;
+    }
+
+    html[lang='fr'] .goog-te-combo {
+        left: 30%;
+    }
+
+    .goog-te-gadget .goog-te-combo {
+        top: 0.9%;
+        left: 25%;
+    }
+
+    .all-major-city {
+        gap: 10px;
+    }
+
+    .all-countries {
+        gap: 10px;
+    }
+
+    .all-country-list li {
+        font-size: 11px;
+    }
+
+    .country-heading h2 {
+        font-size: 20px;
+    }
+
+    .selected-region-country {
+        padding: 15px 15px;
+    }
+
+    .selected-region-country img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .selected-region-country span {
+        font-size: 13px;
+    }
+
+    .all-countries {
+        justify-content: space-between;
+
+    }
+
+    .selected-major-city {
+        padding: 15px 15px;
+    }
+
+    .selected-major-city img {
+        width: 40px;
+    }
+
+    .selected-major-city span {
+        font-size: 13px;
+    }
+
+    .all-major-city {
+        justify-content: space-between;
+    }
+
+    .banner-col img {
+        height: 200px;
+    }
+
+    .sidebar-nav ul li a {
+        font-size: 12px;
+    }
+
+    .add-tow-section h4 {
+        font-size: 16px;
+    }
+
+    .add-three-section h4 {
+        font-size: 16px;
+    }
+
+    .add-five-section h4 {
+        font-size: 16px;
+    }
+
+    .add-tow-section p {
+        font-size: 11px;
+    }
+
+    .add-three-section p {
+        font-size: 11px;
+    }
+
+    .add-five-section p {
+        font-size: 11px;
+    }
+
+    .yellow-btn {
+        padding: 6px 20px;
+        border-radius: 6px;
+        font-size: 10px;
+    }
+
+    .prayer-tabs button {
+        font-size: 11px;
+    }
+
+    .prayer-times .text-p {
+        font-size: 11px;
+    }
+
+    .prayer-times .roboto-500 {
+        font-size: 13px !important;
+    }
+
+    .prayer-item div {
+        font-size: 9px;
+    }
+
+    .active-date .active-time {
+        font-size: 11px;
+        padding: 15px 19px;
+    }
+
+    .which-country {
+        font-size: 11px;
+    }
+
+    .calculation-methods span {
+        font-size: 10px;
+    }
+
+    .five-prayers {
+        font-size: 11px;
+    }
+
+    .country-profile h5 {
+        margin-bottom: 0px;
+    }
+
+    .country-profile p {
+        font-size: 11px;
+    }
+
+    .country-capital-item {
+        padding: 10px 28px;
+        font-size: 11px;
+    }
+
+    .playlist-box h5 {
+        margin-top: 7px;
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+
+    .playlist-box span {
+        font-size: 11px;
+    }
+
+    .article-body h4 {
+        font-size: 15px;
+    }
+
+    .article-body p {
+        font-size: 10px;
+        line-height: 17px;
+        margin-bottom: 5px;
+    }
+
+    .mobile-banner-section .col-lg-5 h3 {
+        font-size: 17px;
+    }
+
+    .mobile-banner-section .col-lg-5 p {
+        font-size: 11px !important;
+    }
+
+    .mt-lg-5 {
+        margin-top: 2rem !important;
+    }
+
+    .recordings-by-qari-item {
+        width: 49%;
+    }
+
+    .advantage-section .advantage-heading h2 {
+        font-size: 20px;
+    }
+
+    .surat-box {
+        gap: 10px;
+        justify-content: space-between;
+    }
+
+}
+
+@media(max-width:991px) {
+    .drop-world {
+        position: absolute;
+        top: 34px;
+        left: 79% !important;
+    }
+
+    .goog-te-gadget .goog-te-combo {
+        left: 70%;
+        top: 0.5%;
+    }
+
+    html[lang='fr'] .goog-te-combo {
+        left: 70%;
+        top: 0.5%;
+    }
+
+    .footer-ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .logo_ {
+        width: 110px;
+    }
+
+    .logo_ img {
+        width: 60px;
+    }
+
+    .countries-pagination {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .footer-links .col-lg-3 {
+        width: max-content;
+    }
+
+    .footer-links {
+        justify-content: center;
+    }
+
+    .article-row {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+
+    .w-sm-100 {
+        width: 100% !important;
+    }
+
+    .about-country-row {
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .which-country {
+        font-size: 13px;
+    }
+
+    .country-profile p {
+        font-size: 13px;
+    }
+
+    .calculation-methods {
+        margin-bottom: 6px;
+    }
+
+    .calculation-methods span {
+        font-size: 13px;
+    }
+
+}
+
+@media(max-width:800px) {
+    .drop-world {
+        position: absolute;
+        top: 34px;
+        left: 81% !important;
+    }
+}
+
+@media(max-width:725px) {
+    .drop-world {
+        position: absolute;
+        top: 34px;
+        left: 84% !important;
+    }
+}
+
+@media(max-width:600px) {
+    .goog-te-gadget .goog-te-combo {
+        left: 67%;
+        top: 0.5% !;
+    }
+
+    html[lang='fr'] .goog-te-combo {
+        left: 67%;
+        top: 0.5%;
+    }
+
+    .p-mb-0 {
+        padding: 0px;
+    }
+
+    .banner-one .col-lg-4 {
+        position: absolute;
+        bottom: 10%;
+        z-index: 0;
+    }
+
+    .banner-one-content {
+        position: relative;
+        z-index: 1;
+    }
+
+    .banner-one img {
+        width: 140px;
+    }
+
+    .banner-one-content {
+        padding: 25px 0px;
+        padding-top: 10px;
+    }
+
+    .banner-one-content h2 {
+        font-size: 20px;
+    }
+
+    .banner-one-content p {
+        color: #787D84;
+    }
+
+    .theme__button {
+        font-size: small;
+        padding: 8px 17px;
+    }
+
+    .all-country-list ul {
+        gap: 9px 12px;
+    }
+
+    .selected-region-country {
+        padding: 15px 20px;
+    }
+
+    .all-countries {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0px 15px;
+
+    }
+
+    .all-country-list,
+    .country-heading,
+    .countries-pagination {
+        padding: 0px 15px;
+    }
+
+
+    .all-major-city {
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .all-major-city,
+    .country-heading,
+    .city-pagination {
+        padding: 0px 15px;
+    }
+
+    .city-pagination {
+        gap: 5px;
+    }
+
+    .city-pagination li a {
+        padding: 8px 10px;
+        border-radius: 7px;
+    }
+
+    .countries-pagination {
+        gap: 5px;
+    }
+
+    .countries-pagination li a {
+        padding: 8px 10px;
+        border-radius: 7px;
+    }
+
+    .three-banner-slider .carousel-item img {
+        height: 300px;
+    }
+
+    .selected-major-city {
+        padding: 15px 20px;
+    }
+
+    .all-major-city-section {
+        padding: 25px 0px;
+    }
+
+    .all-country-section {
+        padding: 25px 0px;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .p-sm-0 {
+        padding: 0px;
+    }
+
+    .content-widget {
+        margin: 30px 15px;
+    }
+
+    .mx-sm-0 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .rounded-sm-0 {
+        border-radius: 0px;
+        border: none;
+    }
+
+    .mobile-banner-section .col-lg-5 h3 {
+        font-size: 18px;
+    }
+
+    .mobile-banner-section .col-lg-5 {
+        direction: var(--direction);
+        padding: 2rem 15px !important;
+        /* padding-left: 0rem !important; */
+    }
+
+    .mobile-banner-section {
+        padding-top: 0px;
+        flex-direction: column-reverse;
+    }
+
+    .bg-sm-transparent {
+        background-color: transparent;
+        border: none;
+    }
+
+    #locationModel .modal-content h3 {
+        font-size: 20px;
+    }
+
+    #locationModel .modal-content {
+        padding: 2rem 0px;
+    }
+
+    .location-button {
+        justify-content: center;
+    }
+
+    .location-button button {
+        width: 120px;
+        padding: 11px;
+    }
+
+    .location-button {
+        gap: 15px;
+    }
+
+    .location-content {
+        flex-wrap: wrap;
+    }
+
+
+    .prayer-times-row .col-2 {
+        width: 130px;
+    }
+
+    .prayer-box {
+        overflow-x: scroll;
+    }
+
+    .prayer-times-row {
+        width: max-content;
+    }
+
+    .prayer-tabs {
+        overflow-x: scroll;
+    }
+
+    .prayer-tabs button {
+        display: block;
+        white-space: pre;
+        padding: 5px 20px;
+        font-size: 13px;
+    }
+
+    .AboutTheCountry {
+        padding: 15px 8px;
+    }
+
+    .prayer-table {
+        overflow-x: scroll;
+    }
+
+    .prayer-item div {
+        white-space: pre;
+    }
+
+    .prayer-body {
+        overflow: visible;
+        width: max-content;
+    }
+
+    .prayer-heading {
+        width: max-content;
+    }
+
+    .country-capital-item {
+        padding: 9px 22px;
+        font-size: 11px;
+    }
+
+    .country-capital-item {
+        padding: 4px 14px;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+
+    .country-capital {
+        gap: 10px;
+    }
+
+    .capital-pagination {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding: 15px 15px;
+        gap: 13px;
+    }
+
+    .capital-pagination-arrow-left,
+    .capital-pagination-arrow-right {
+        background-color: #EAEDFF;
+        border-radius: 10px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .add-five-section h4 {
+        font-size: x-large;
+    }
+
+    .playlist-row .col-lg-12 {
+        flex-wrap: wrap;
+        gap: 11px !important;
+    }
+
+    .playlist-box {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .article-row .col-4 {
+        width: 300px !important;
+    }
+
+    .add-four {
+        height: 140px;
+        width: max-content !important;
+    }
+
+    #ShareModal .modal-content {
+        padding: 1.2rem;
+    }
+
+    .icons-box {
+        justify-content: start !important;
+        gap: 28px !important;
+    }
+
+    #ShareModal .modal-content .modal-body {
+        padding: 0px;
+    }
+
+    .icons-box {
+        display: flex;
+        gap: 20px;
+        justify-content: space-around;
+    }
+
+    .add-four-div {
+        overflow-x: scroll;
+    }
+
+    .all-elders-listing {
+        justify-content: space-between;
+    }
+
+    .all-edlder-search input {
+        width: 60%;
+        border-radius: 9px;
+        padding: 6px;
+    }
+
+    .recordings-by-qari-item {
+        width: 100%;
+    }
+
+    .add-five-section p {
+        margin-top: 6px;
+    }
+
+    .mobile-banner-section .col-lg-5 p {
+        font-size: 13px !important;
+    }
+
+    .suratplay-p-dsk {
+        display: none;
+    }
+
+    .suratplay-p-mb {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        font-size: 13px;
+        color: #8C8C8C;
+    }
+
+    .surat-details h3 {
+        font-size: 14px;
+    }
+
+    .surat-share-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* .surat-share-icon {
+        position: absolute;
+        top: 0px;
+        left: -12px;
+    } */
+    .surat-list {
+        width: 100%;
+    }
+
+    .surrat-image {
+        width: 30%;
+    }
+
+    .surrat-content {
+        width: 70%;
+    }
+
+    .surat-list-content h5 {
+        font-size: 15px;
+    }
+
+    .MoreSuratList {
+        padding: 7px;
+        gap: 0px;
+    }
+
+    .MoreSuratList-content h5 {
+        font-size: 15px;
+    }
+
+    .MoreSuratList-play p {
+        font-size: small;
+    }
+
+    .MoreSuratList-content p {
+        font-size: small;
+    }
+
+    .surat-qari-image {
+        width: 40%;
+    }
+
+    .surat-qari-content h4 {
+        font-size: 20px;
+    }
+
+    .surat-qari-content span {
+        font-size: small;
+    }
+
+    .surat-qari-content p {
+        font-size: small;
+    }
+
+    .surat-row {
+        padding: 1rem 1.4rem;
+    }
+
+
+    .add-tow-section h4 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .offcanvas-end {
+        width: 310px;
+    }
+
+    .prayer-tabs {
+        gap: 15px;
+    }
+
+    .footer-div {
+        width: 100%;
+    }
+
+    .all-elders-listing div {
+        font-size: 18px;
+    }
+
+    .footer-ul {
+        padding: 0px;
+    }
+
+    .footer-ul li {
+        margin: 10px;
+        min-width: 90px;
+        text-align: end;
+    }
+
+    .footer-links {
+        flex-direction: row-reverse;
+        margin-top: 40px;
+    }
+
+    .footer-links .col-lg-3 {
+        width: max-content;
+    }
+
+    .footer-ul {
+        padding: 0px;
+        margin-top: 40px;
+    }
+
+    .copyright-div a {
+        font-size: small;
+    }
+
+    .copyright-div {
+        gap: 20px;
+        text-align: right;
+    }
+
+    .footer-ul {
+        gap: 0px;
+    }
+
+    .share-icons div {
+        padding: 25px;
+    }
+
+    .share-icons div:hover {
+        background: #FCD465;
+    }
+}
+
+@media(max-width:450px) {
+    .drop-world {
+        position: absolute;
+        top: 34px;
+        left: 80% !important;
+    }
+
+ 
+
+    html[lang='fr'] .goog-te-combo {
+        left: 58%;
+        top: 0.5%;
+    }
+    .goog-te-gadget .goog-te-combo {
+        left: 60%;
+        top: 0.5%;
+    }
+
+
+    .banner-one img {
+        width: 100px;
+    }
+}
+
+@media(max-width:400px) {
+    .banner-one-content p {
+        font-size: 13px !important;
+    }
+
+    .banner-one-content h2 {
+        font-size: 17px;
+    }
+
+    .icons-box {
+        justify-content: space-between !important;
+        gap: 28px !important;
+    }
+
+    .goog-te-gadget .goog-te-combo {
+        left: 55%;
+        top: 0.5%;
+    }
+
+    .drop-world {
+        position: absolute;
+        top: 34px;
+        left: 78% !important;
+    }
+
+}
+@media(max-width:380px){
+    html[lang='fr'] .goog-te-combo {
+        left: 55%;
+        top: 0.5%;
+    }
+}
+@media(max-width:350px) {
+    
+    .banner-one img {
+        width: 80px;
+    }
+
+    .all-major-city,
+    .all-countries {
+        gap: 5px;
+    }
+}
+
+@media(max-width:320px) {
+    .selected-region-country {
+        padding: 9px;
+    }
+
+    .selected-major-city {
+        padding: 9px;
+    }
+}
